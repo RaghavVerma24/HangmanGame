@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>
+  <form action="main.html">
+    <input type="text" class="form_input" id="length" placeholder="Length of Words" onKeydown="memSort(event);" required autofocus>
+    <label for="name" class="form_label">Length of Words</label>
+    <button type="button" href="main.html" class="btn" style="margin-top: -20px;" id="submit" onclick="getInputValue();">Submit</button>
+  </form> 
+  <script src="script.js"></script>
+</body>
+</html>
